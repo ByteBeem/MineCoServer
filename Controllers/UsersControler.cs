@@ -106,24 +106,24 @@ public class UsersController : ControllerBase
 
 public class SignupRequest
 {
-    public string FullName { get; set; }
-    public string Age { get; set; }
-    public string Email { get; set; }
-    public string Password { get; set; }
+    public string? FullName { get; set; }
+    public string? Age { get; set; }
+    public string? Email { get; set; }
+    public string? Password { get; set; }
 }
 
 public class LoginRequest
 {
-    public string Email { get; set; }
-    public string Password { get; set; }
+public string? Email { get; set; }
+    public string? Password { get; set; }
 }
 
 public class User
 {
-    public string FullName { get; set; }
-    public string Age { get; set; }
-    public string Email { get; set; }
-    public string HashedPassword { get; set; }
+    public string? FullName { get; set; }
+    public string? Age { get; set; }
+    public string? Email { get; set; }
+    public string? HashedPassword { get; set; }
 }
 public class SignupService
 {
@@ -145,7 +145,7 @@ public class SignupService
         });
     }
 
-    public async Task<User> GetUserByEmail(string email)
+    public async Task<User?> GetUserByEmail(string email)
     {
         var snapshot = await firebaseClient
             .Child("users")
