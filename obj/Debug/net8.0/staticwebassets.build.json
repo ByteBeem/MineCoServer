@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tMbc7TU3U9D1iTEf2gWoOauFTYI6+hXj1l177GHpnwI=",
+  "Source": "MineCoServer",
+  "BasePath": "_content/MineCoServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
