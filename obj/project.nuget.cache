@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "SGikturkqEfd+wdGFv4PBW6nzdy/SFPz2JZ4td9VGVRu5myi4Nwq5SwftxQBEyF6IpReH6lqnioONqxiDoUalg==",
+  "dgSpecHash": "2XMw1+yT79jsPkpzt0lO5lzccxBXvNeVyhK4L33ZN7TAUcJAKvDWNziAlGr9xPl7400U6yQ7JukTKDruezy8Bg==",
   "success": true,
   "projectFilePath": "/workspaces/MineCoServer/MineCoServer.csproj",
   "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/bcrypt.net/0.1.0/bcrypt.net.0.1.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.aspnetcore.openapi/8.0.3/microsoft.aspnetcore.openapi.8.0.3.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/codespace/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
@@ -12,5 +13,16 @@
     "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "/home/codespace/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.4.0/swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt.Net 0.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt.Net",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

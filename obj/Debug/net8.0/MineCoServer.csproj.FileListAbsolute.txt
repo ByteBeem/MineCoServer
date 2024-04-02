@@ -32,3 +32,4 @@
 /workspaces/MineCoServer/obj/Debug/net8.0/MineCoServer.pdb
 /workspaces/MineCoServer/obj/Debug/net8.0/MineCoServer.genruntimeconfig.cache
 /workspaces/MineCoServer/obj/Debug/net8.0/ref/MineCoServer.dll
+/workspaces/MineCoServer/bin/Debug/net8.0/BCrypt.Net.dll

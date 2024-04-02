@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using BCrypt.Net;
 
 namespace MineCoServer.Controllers
 {
@@ -9,13 +10,15 @@ namespace MineCoServer.Controllers
         [HttpGet("login")]
         public IActionResult GetLogin()
         {
-            return Ok("Hello from login endpoint!");
+            string password = "kjwfweghe";
+            string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
+            return Ok($"Hello from login endpoint! {hashedPassword}");
         }
 
         [HttpGet("signup")]
         public IActionResult GetSignup()
         {
-            return Ok("Hello from login signup!");
+            return Ok("Hello from signup endpoint!");
         }
     }
 }

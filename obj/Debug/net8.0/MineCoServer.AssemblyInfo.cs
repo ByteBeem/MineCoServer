@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MineCoServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7ad3291f1a8f148728b07c7c4ad45be5196f395")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b4e32fba9efac059a1185f8c011de9a5a23935f")]
 [assembly: System.Reflection.AssemblyProductAttribute("MineCoServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MineCoServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
