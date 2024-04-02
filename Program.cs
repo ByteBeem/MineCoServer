@@ -23,7 +23,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Go to play store and download the MineCo app. Thank you");
 
 app.MapControllers(); 
 
